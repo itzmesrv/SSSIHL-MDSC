@@ -1,2 +1,2 @@
-This repository contains all my codes done during my Post Graduation at SSSIHL.<br>
+This repository contains all my codes, datasets used during my M.Sc. Data Science and Computing at SSSIHL.<br>
 Thank you!
