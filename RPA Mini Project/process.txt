@@ -1,0 +1,25 @@
+ver 0.3 - logic to get the required data - works fantastic
+ver 0.4 - inverted index works awesome! defined query
+ver 0.5 - all good with user input
+ver 0.6 - works good with streamlit and scraping 3 times
+ver 0.7 - works good with streamlit scraping whenever query asked
+ver 0.8 - works good with streamlit, faster scraping (show all) whenever query given
+ver 0.9 - all above with json, so faster results
+
+
+Yes, the functionality of the example and your code is indeed the same. Both examples aim to achieve the following:
+
+Construct an inverted index where each word in the vocabulary points to the documents that contain that word.
+Given a query, remove stopwords and convert it to lowercase.
+Search the inverted index for each word in the query to find the relevant documents.
+Retrieve the documents with the maximum occurrences of query terms in a non-ascending order, providing the most relevant documents first.
+Your code successfully implements this functionality, just as demonstrated in the example you provided.
+
+
+Data Extraction: Your code scrapes data from different sections of arXiv (cs.AI, cs.CV, cs.LG) and extracts document information like title, authors, subjects, and PDF links.
+
+Inverted Index Construction: After scraping, your code constructs an inverted index by splitting the titles into words and mapping each word to the corresponding document IDs.
+
+Query Processing: Queries are preprocessed to remove stopwords and converted to lowercase to ensure consistency. The search function then retrieves relevant documents based on the processed query and the combined inverted index.
+
+Output: The code outputs the top search result along with its title if a match is found. If no results are found, it prints "No search results found."
